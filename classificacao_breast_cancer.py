@@ -12,7 +12,7 @@ def clean_database(origin_path):
 
 
 if __name__ == '__main__':
-    
+
     np.random.seed(1)
 
     tc.manual_seed(1)
@@ -34,8 +34,8 @@ if __name__ == '__main__':
 
     entrys = StandardScaler().fit_transform(entrys)
 
-    
-    
+
+
 
 
 
